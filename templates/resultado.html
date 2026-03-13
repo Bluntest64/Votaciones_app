@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="/static/css/resultado.css">
+    <script src="/static/js/script.js"></script>
+</head>
+<body>
+
+<!-- HEADER CON LOGO -->
+
+<header>
+    <div class="logo">
+        <img src="/static/img/logo.png" alt="Logo Registraduría">
+    </div>
+</header>
+
+<!-- RESULTADO -->
+
+<div class="contenedor-formulario">
+
+    <div class="resultado-box">
+
+        <h2>Resultado de la consulta</h2>
+
+        <p><strong>Documento:</strong> {{ documento }}</p>
+
+        <p><strong>Lugar de votación:</strong> {{ lugar }}</p>
+
+        <p><strong>Dirección:</strong> {{ direccion }}</p>
+
+        <p><strong>Mesa:</strong> {{ mesa }}</p>
+
+        <a href="/">
+            <button>Volver al inicio</button>
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>

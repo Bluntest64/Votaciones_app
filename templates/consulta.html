@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta</title>
+    <link rel="stylesheet" href="/static/css/consulta.css">
+    <script src="/static/js/script.js"></script>
+</head>
+    
+
+<body>
+
+<!-- HEADER CON LOGO -->
+
+<header>
+    <div class="logo">
+        <img src="/static/img/logo.png" alt="Logo Registraduría">
+    </div>
+</header>
+
+<!-- FORMULARIO -->
+
+<div class="contenedor-formulario">
+
+    <form id="forn_consulta" action="/resultado" method="POST">
+
+        <h2>Consulta de ciudadano</h2>
+
+        <label>Ingrese su número de identificación</label>
+        <input type="text" name="documento" placeholder="Número de documento" required>
+
+        <button type="submit">Consultar</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
